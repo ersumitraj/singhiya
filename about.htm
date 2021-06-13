@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shambhu Leakhni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="image/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.htm">HOME</a> </li>
+                    <li><a href="about.htm">ABOUT</a> </li>
+                    <li><a href="service.htm">SERVICE</a> </li>
+                    <li><a href="singhiya panchayat.htm">SINGHIYA PANCHAYAT</a> </li>
+
+                    <li> <a href="singhiya village.htm">SINGHIYA VILLAGES</a> </li>
+                     <li><a href="contact.htm">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+ </section>
+    
+    <!----- about us content -------->
+    <section class="about-us">
+        <div class="row">
+        <div class="about-col"> <h1>About Singhiya's Biggest Stationery Shop</h1>
+            <div class="about-col">
+            <img src="image/about.jpg">
+        </div>
+     <p>Shri Shambhu Leakhni Mahal was established in 2001.
+         This is the oldest and the best shop in Singhiya block.
+        Mission of the stationery store is to provide the best office and the basic stationery to our customers.
+        The stationery store exists to attract and maintain customers.
+        Our products and services will exceed the expectations of our customers.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+</div>
+
+
+    <!---- Comment box ---->
+    <div class="comment-box">
+        <h5>Leave a Comment</h5>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your Comment">
+
+            </textarea> <br>
+            <button type="submit" CLASS="hero-btn red-btn">POST COMMENT</button>
+        </form>
+    </div>
+</section>
+
+
+
+    <!--- Footer --->
+<<section class="footer">
+    <h4>About Us</h4>
+    <p>Shri Shambhu Leakhni Mahal was established in 2001.
+         <br>This is the oldest and the best shop in Singhiya block.</p>
+    <div class="icons">
+        <span style="font-size: 20px; color: Dodgerblue;">
+        <i class="fab fa-facebook"></i>
+         <i class="fab fa-twitter"></i>
+         <i class="fab fa-instagram"></i>
+         <i class="fab fa-linkedin"></i>
+        </span>
+
+    </div>
+
+    <p> Made with <span style="font-size: 12px; color: #f44336;"> <i class="far fa-heart"></i> </span>By Sumit Raj </p>
+
+</section>
+
+
+
+
+<!----- JavaScript for Toggle Menu ----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+
+</script>
+
+
+
+</body>
+</html>

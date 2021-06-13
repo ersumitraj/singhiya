@@ -326,9 +326,10 @@ margin-top: 80px;
     padding: 30px 2px;
 }
 .about-col img{
-    margin-left:600px;
+    margin-left:550px;
     width: 100%;}
- @media(max-width:700px){
+ @media(max-width:700px)
+.about-col img{
     margin-left:10px;
 }
 .about-col h1{

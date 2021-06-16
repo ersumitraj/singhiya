@@ -20,6 +20,6 @@ $headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-header("Location: contact.htm")
+header("Location: contact.htm");
 
 ?>
